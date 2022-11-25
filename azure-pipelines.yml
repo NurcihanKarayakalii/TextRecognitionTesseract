@@ -7,14 +7,34 @@ trigger:
 - main
 
 pool:
-  vmImage: 'macos-latest'
+  vmImage: 'macos-12.6'
 
+variables:
+  - group: ios-pipeline
 steps:
+
+- task: CocoaPods@0
+  inputs:
+    forceRepoUpdate: false
+    
 - task: Xcode@5
   inputs:
     actions: 'build'
-    scheme: ''
+    scheme: 'TextRecognitionTesseract'
     sdk: 'iphoneos'
-    configuration: 'Release'
-    xcWorkspacePath: '**/*.xcodeproj/project.xcworkspace'
+    configuration: '$(configuration)'
+    xcWorkspacePath: '**/TextRecognitionTesseract.xcworkspace'
     xcodeVersion: 'default' # Options: 8, 9, 10, 11, 12, default, specifyPath
+    packageApp: true
+
+- task: CopyFiles@2
+  inputs:
+    contents: '**/*.ipa'
+    targetFolder: '$(build.artifactStagingDirectory)'
+    overWrite: true
+  
+- task: PublishBuildArtifacts@1
+  inputs:
+    pathtoPublish: '$(build.artifactStagingDirectory)/output/$(sdk)/$(configuration)' 
+    artifactName: 'drop' 
+    publishLocation: 'Container'
