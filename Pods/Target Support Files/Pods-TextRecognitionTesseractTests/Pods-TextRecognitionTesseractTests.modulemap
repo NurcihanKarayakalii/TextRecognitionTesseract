@@ -1,0 +1,6 @@
+framework module Pods_TextRecognitionTesseractTests {
+  umbrella header "Pods-TextRecognitionTesseractTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

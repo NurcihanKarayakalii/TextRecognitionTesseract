@@ -1,0 +1,787 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B5CD4C128D6612C00D36A1A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CD4C028D6612C00D36A1A /* AppDelegate.swift */; };
+		6B5CD4C328D6612C00D36A1A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CD4C228D6612C00D36A1A /* SceneDelegate.swift */; };
+		6B5CD4C528D6612C00D36A1A /* SelectImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CD4C428D6612C00D36A1A /* SelectImageViewController.swift */; };
+		6B5CD4C828D6612C00D36A1A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5CD4C628D6612C00D36A1A /* Main.storyboard */; };
+		6B5CD4CA28D6612F00D36A1A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B5CD4C928D6612F00D36A1A /* Assets.xcassets */; };
+		6B5CD4CD28D6612F00D36A1A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B5CD4CB28D6612F00D36A1A /* LaunchScreen.storyboard */; };
+		6B5CD4D828D6612F00D36A1A /* TextRecognitionTesseractTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CD4D728D6612F00D36A1A /* TextRecognitionTesseractTests.swift */; };
+		6B5CD4E228D6612F00D36A1A /* TextRecognitionTesseractUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CD4E128D6612F00D36A1A /* TextRecognitionTesseractUITests.swift */; };
+		6B5CD4E428D6612F00D36A1A /* TextRecognitionTesseractUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CD4E328D6612F00D36A1A /* TextRecognitionTesseractUITestsLaunchTests.swift */; };
+		6B5CD4F128D6631000D36A1A /* SelectImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CD4F028D6631000D36A1A /* SelectImageViewModel.swift */; };
+		6B5CD4FB28D705E400D36A1A /* tessdata in Resources */ = {isa = PBXBuildFile; fileRef = 6B5CD4FA28D705E400D36A1A /* tessdata */; };
+		6B5CD4FD28D72ABB00D36A1A /* UIImage+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5CD4FC28D72ABB00D36A1A /* UIImage+Extension.swift */; };
+		B2BE43A2346E6D4330F082AA /* Pods_TextRecognitionTesseract_TextRecognitionTesseractUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A49DBCB2C1F1BE181BA2FD53 /* Pods_TextRecognitionTesseract_TextRecognitionTesseractUITests.framework */; };
+		E7C55376F5B95E39075F0436 /* Pods_TextRecognitionTesseractTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A3069E28B63F96493ABB1DF /* Pods_TextRecognitionTesseractTests.framework */; };
+		F15A4693BAAC1D39501E1113 /* Pods_TextRecognitionTesseract.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E0DBD2E7A47B61586A05A6A /* Pods_TextRecognitionTesseract.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B5CD4D428D6612F00D36A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B5CD4B528D6612C00D36A1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B5CD4BC28D6612C00D36A1A;
+			remoteInfo = TextRecognitionTesseract;
+		};
+		6B5CD4DE28D6612F00D36A1A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B5CD4B528D6612C00D36A1A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B5CD4BC28D6612C00D36A1A;
+			remoteInfo = TextRecognitionTesseract;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3A3069E28B63F96493ABB1DF /* Pods_TextRecognitionTesseractTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextRecognitionTesseractTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3E0DBD2E7A47B61586A05A6A /* Pods_TextRecognitionTesseract.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextRecognitionTesseract.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5CD4BD28D6612C00D36A1A /* TextRecognitionTesseract.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TextRecognitionTesseract.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5CD4C028D6612C00D36A1A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B5CD4C228D6612C00D36A1A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B5CD4C428D6612C00D36A1A /* SelectImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageViewController.swift; sourceTree = "<group>"; };
+		6B5CD4C728D6612C00D36A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B5CD4C928D6612F00D36A1A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B5CD4CC28D6612F00D36A1A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B5CD4CE28D6612F00D36A1A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B5CD4D328D6612F00D36A1A /* TextRecognitionTesseractTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextRecognitionTesseractTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5CD4D728D6612F00D36A1A /* TextRecognitionTesseractTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognitionTesseractTests.swift; sourceTree = "<group>"; };
+		6B5CD4DD28D6612F00D36A1A /* TextRecognitionTesseractUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TextRecognitionTesseractUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B5CD4E128D6612F00D36A1A /* TextRecognitionTesseractUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognitionTesseractUITests.swift; sourceTree = "<group>"; };
+		6B5CD4E328D6612F00D36A1A /* TextRecognitionTesseractUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextRecognitionTesseractUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		6B5CD4F028D6631000D36A1A /* SelectImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectImageViewModel.swift; sourceTree = "<group>"; };
+		6B5CD4FA28D705E400D36A1A /* tessdata */ = {isa = PBXFileReference; lastKnownFileType = folder; path = tessdata; sourceTree = "<group>"; };
+		6B5CD4FC28D72ABB00D36A1A /* UIImage+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Extension.swift"; sourceTree = "<group>"; };
+		71482ABC8DF0228A197453F7 /* Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests.release.xcconfig"; path = "Target Support Files/Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests/Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests.release.xcconfig"; sourceTree = "<group>"; };
+		75E1F0801F860BCFE3F1A997 /* Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests.debug.xcconfig"; path = "Target Support Files/Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests/Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		7E289BE3D58B8D32CAC16ACE /* Pods-TextRecognitionTesseractTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextRecognitionTesseractTests.release.xcconfig"; path = "Target Support Files/Pods-TextRecognitionTesseractTests/Pods-TextRecognitionTesseractTests.release.xcconfig"; sourceTree = "<group>"; };
+		A49DBCB2C1F1BE181BA2FD53 /* Pods_TextRecognitionTesseract_TextRecognitionTesseractUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TextRecognitionTesseract_TextRecognitionTesseractUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABD8C3FBAB139F5314186276 /* Pods-TextRecognitionTesseract.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextRecognitionTesseract.debug.xcconfig"; path = "Target Support Files/Pods-TextRecognitionTesseract/Pods-TextRecognitionTesseract.debug.xcconfig"; sourceTree = "<group>"; };
+		BCADC3F19443A51E5137BC9D /* Pods-TextRecognitionTesseractTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextRecognitionTesseractTests.debug.xcconfig"; path = "Target Support Files/Pods-TextRecognitionTesseractTests/Pods-TextRecognitionTesseractTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CA3C460E5E10FE94B2397EB7 /* Pods-TextRecognitionTesseract.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TextRecognitionTesseract.release.xcconfig"; path = "Target Support Files/Pods-TextRecognitionTesseract/Pods-TextRecognitionTesseract.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B5CD4BA28D6612C00D36A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F15A4693BAAC1D39501E1113 /* Pods_TextRecognitionTesseract.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5CD4D028D6612F00D36A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E7C55376F5B95E39075F0436 /* Pods_TextRecognitionTesseractTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5CD4DA28D6612F00D36A1A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2BE43A2346E6D4330F082AA /* Pods_TextRecognitionTesseract_TextRecognitionTesseractUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		39008CB77DF9A9D65758C96E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3E0DBD2E7A47B61586A05A6A /* Pods_TextRecognitionTesseract.framework */,
+				A49DBCB2C1F1BE181BA2FD53 /* Pods_TextRecognitionTesseract_TextRecognitionTesseractUITests.framework */,
+				3A3069E28B63F96493ABB1DF /* Pods_TextRecognitionTesseractTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B5CD4B428D6612C00D36A1A = {
+			isa = PBXGroup;
+			children = (
+				6B5CD4FA28D705E400D36A1A /* tessdata */,
+				6B5CD4BF28D6612C00D36A1A /* TextRecognitionTesseract */,
+				6B5CD4D628D6612F00D36A1A /* TextRecognitionTesseractTests */,
+				6B5CD4E028D6612F00D36A1A /* TextRecognitionTesseractUITests */,
+				6B5CD4BE28D6612C00D36A1A /* Products */,
+				E24BA695210AA3BEF4420725 /* Pods */,
+				39008CB77DF9A9D65758C96E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		6B5CD4BE28D6612C00D36A1A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CD4BD28D6612C00D36A1A /* TextRecognitionTesseract.app */,
+				6B5CD4D328D6612F00D36A1A /* TextRecognitionTesseractTests.xctest */,
+				6B5CD4DD28D6612F00D36A1A /* TextRecognitionTesseractUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B5CD4BF28D6612C00D36A1A /* TextRecognitionTesseract */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CD4F528D6F45A00D36A1A /* ViewModel */,
+				6B5CD4F428D6F44B00D36A1A /* ViewController */,
+				6B5CD4C028D6612C00D36A1A /* AppDelegate.swift */,
+				6B5CD4C228D6612C00D36A1A /* SceneDelegate.swift */,
+				6B5CD4C628D6612C00D36A1A /* Main.storyboard */,
+				6B5CD4C928D6612F00D36A1A /* Assets.xcassets */,
+				6B5CD4CB28D6612F00D36A1A /* LaunchScreen.storyboard */,
+				6B5CD4CE28D6612F00D36A1A /* Info.plist */,
+				6B5CD4FC28D72ABB00D36A1A /* UIImage+Extension.swift */,
+			);
+			path = TextRecognitionTesseract;
+			sourceTree = "<group>";
+		};
+		6B5CD4D628D6612F00D36A1A /* TextRecognitionTesseractTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CD4D728D6612F00D36A1A /* TextRecognitionTesseractTests.swift */,
+			);
+			path = TextRecognitionTesseractTests;
+			sourceTree = "<group>";
+		};
+		6B5CD4E028D6612F00D36A1A /* TextRecognitionTesseractUITests */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CD4E128D6612F00D36A1A /* TextRecognitionTesseractUITests.swift */,
+				6B5CD4E328D6612F00D36A1A /* TextRecognitionTesseractUITestsLaunchTests.swift */,
+			);
+			path = TextRecognitionTesseractUITests;
+			sourceTree = "<group>";
+		};
+		6B5CD4F428D6F44B00D36A1A /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CD4C428D6612C00D36A1A /* SelectImageViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		6B5CD4F528D6F45A00D36A1A /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				6B5CD4F028D6631000D36A1A /* SelectImageViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		E24BA695210AA3BEF4420725 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABD8C3FBAB139F5314186276 /* Pods-TextRecognitionTesseract.debug.xcconfig */,
+				CA3C460E5E10FE94B2397EB7 /* Pods-TextRecognitionTesseract.release.xcconfig */,
+				75E1F0801F860BCFE3F1A997 /* Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests.debug.xcconfig */,
+				71482ABC8DF0228A197453F7 /* Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests.release.xcconfig */,
+				BCADC3F19443A51E5137BC9D /* Pods-TextRecognitionTesseractTests.debug.xcconfig */,
+				7E289BE3D58B8D32CAC16ACE /* Pods-TextRecognitionTesseractTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B5CD4BC28D6612C00D36A1A /* TextRecognitionTesseract */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5CD4E728D6612F00D36A1A /* Build configuration list for PBXNativeTarget "TextRecognitionTesseract" */;
+			buildPhases = (
+				84DFC56D838DD76B63C33753 /* [CP] Check Pods Manifest.lock */,
+				6B5CD4B928D6612C00D36A1A /* Sources */,
+				6B5CD4BA28D6612C00D36A1A /* Frameworks */,
+				6B5CD4BB28D6612C00D36A1A /* Resources */,
+				2F700116427A95D112A964C0 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TextRecognitionTesseract;
+			productName = TextRecognitionTesseract;
+			productReference = 6B5CD4BD28D6612C00D36A1A /* TextRecognitionTesseract.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B5CD4D228D6612F00D36A1A /* TextRecognitionTesseractTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5CD4EA28D6612F00D36A1A /* Build configuration list for PBXNativeTarget "TextRecognitionTesseractTests" */;
+			buildPhases = (
+				E66B409542799579830AE652 /* [CP] Check Pods Manifest.lock */,
+				6B5CD4CF28D6612F00D36A1A /* Sources */,
+				6B5CD4D028D6612F00D36A1A /* Frameworks */,
+				6B5CD4D128D6612F00D36A1A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B5CD4D528D6612F00D36A1A /* PBXTargetDependency */,
+			);
+			name = TextRecognitionTesseractTests;
+			productName = TextRecognitionTesseractTests;
+			productReference = 6B5CD4D328D6612F00D36A1A /* TextRecognitionTesseractTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		6B5CD4DC28D6612F00D36A1A /* TextRecognitionTesseractUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B5CD4ED28D6612F00D36A1A /* Build configuration list for PBXNativeTarget "TextRecognitionTesseractUITests" */;
+			buildPhases = (
+				DD021C5D40D6B0122A8FD3D0 /* [CP] Check Pods Manifest.lock */,
+				6B5CD4D928D6612F00D36A1A /* Sources */,
+				6B5CD4DA28D6612F00D36A1A /* Frameworks */,
+				6B5CD4DB28D6612F00D36A1A /* Resources */,
+				97CCBF743C5ED46042076432 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B5CD4DF28D6612F00D36A1A /* PBXTargetDependency */,
+			);
+			name = TextRecognitionTesseractUITests;
+			productName = TextRecognitionTesseractUITests;
+			productReference = 6B5CD4DD28D6612F00D36A1A /* TextRecognitionTesseractUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B5CD4B528D6612C00D36A1A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					6B5CD4BC28D6612C00D36A1A = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+					6B5CD4D228D6612F00D36A1A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6B5CD4BC28D6612C00D36A1A;
+					};
+					6B5CD4DC28D6612F00D36A1A = {
+						CreatedOnToolsVersion = 13.4.1;
+						TestTargetID = 6B5CD4BC28D6612C00D36A1A;
+					};
+				};
+			};
+			buildConfigurationList = 6B5CD4B828D6612C00D36A1A /* Build configuration list for PBXProject "TextRecognitionTesseract" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B5CD4B428D6612C00D36A1A;
+			productRefGroup = 6B5CD4BE28D6612C00D36A1A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B5CD4BC28D6612C00D36A1A /* TextRecognitionTesseract */,
+				6B5CD4D228D6612F00D36A1A /* TextRecognitionTesseractTests */,
+				6B5CD4DC28D6612F00D36A1A /* TextRecognitionTesseractUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B5CD4BB28D6612C00D36A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5CD4CD28D6612F00D36A1A /* LaunchScreen.storyboard in Resources */,
+				6B5CD4FB28D705E400D36A1A /* tessdata in Resources */,
+				6B5CD4CA28D6612F00D36A1A /* Assets.xcassets in Resources */,
+				6B5CD4C828D6612C00D36A1A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5CD4D128D6612F00D36A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5CD4DB28D6612F00D36A1A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F700116427A95D112A964C0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextRecognitionTesseract/Pods-TextRecognitionTesseract-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextRecognitionTesseract/Pods-TextRecognitionTesseract-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextRecognitionTesseract/Pods-TextRecognitionTesseract-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		84DFC56D838DD76B63C33753 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextRecognitionTesseract-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97CCBF743C5ED46042076432 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests/Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests/Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests/Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DD021C5D40D6B0122A8FD3D0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E66B409542799579830AE652 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TextRecognitionTesseractTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B5CD4B928D6612C00D36A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5CD4F128D6631000D36A1A /* SelectImageViewModel.swift in Sources */,
+				6B5CD4C528D6612C00D36A1A /* SelectImageViewController.swift in Sources */,
+				6B5CD4FD28D72ABB00D36A1A /* UIImage+Extension.swift in Sources */,
+				6B5CD4C128D6612C00D36A1A /* AppDelegate.swift in Sources */,
+				6B5CD4C328D6612C00D36A1A /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5CD4CF28D6612F00D36A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5CD4D828D6612F00D36A1A /* TextRecognitionTesseractTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B5CD4D928D6612F00D36A1A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B5CD4E428D6612F00D36A1A /* TextRecognitionTesseractUITestsLaunchTests.swift in Sources */,
+				6B5CD4E228D6612F00D36A1A /* TextRecognitionTesseractUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B5CD4D528D6612F00D36A1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B5CD4BC28D6612C00D36A1A /* TextRecognitionTesseract */;
+			targetProxy = 6B5CD4D428D6612F00D36A1A /* PBXContainerItemProxy */;
+		};
+		6B5CD4DF28D6612F00D36A1A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B5CD4BC28D6612C00D36A1A /* TextRecognitionTesseract */;
+			targetProxy = 6B5CD4DE28D6612F00D36A1A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B5CD4C628D6612C00D36A1A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5CD4C728D6612C00D36A1A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B5CD4CB28D6612F00D36A1A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B5CD4CC28D6612F00D36A1A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B5CD4E528D6612F00D36A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B5CD4E628D6612F00D36A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B5CD4E828D6612F00D36A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABD8C3FBAB139F5314186276 /* Pods-TextRecognitionTesseract.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL2Y65KG72;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextRecognitionTesseract/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurcihankarayakali.TextRecognitionTesseract;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B5CD4E928D6612F00D36A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CA3C460E5E10FE94B2397EB7 /* Pods-TextRecognitionTesseract.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = KL2Y65KG72;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TextRecognitionTesseract/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurcihankarayakali.TextRecognitionTesseract;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		6B5CD4EB28D6612F00D36A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCADC3F19443A51E5137BC9D /* Pods-TextRecognitionTesseractTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurcihankarayakali.TextRecognitionTesseractTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextRecognitionTesseract.app/TextRecognitionTesseract";
+			};
+			name = Debug;
+		};
+		6B5CD4EC28D6612F00D36A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7E289BE3D58B8D32CAC16ACE /* Pods-TextRecognitionTesseractTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurcihankarayakali.TextRecognitionTesseractTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TextRecognitionTesseract.app/TextRecognitionTesseract";
+			};
+			name = Release;
+		};
+		6B5CD4EE28D6612F00D36A1A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 75E1F0801F860BCFE3F1A997 /* Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurcihankarayakali.TextRecognitionTesseractUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextRecognitionTesseract;
+			};
+			name = Debug;
+		};
+		6B5CD4EF28D6612F00D36A1A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71482ABC8DF0228A197453F7 /* Pods-TextRecognitionTesseract-TextRecognitionTesseractUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.nurcihankarayakali.TextRecognitionTesseractUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = TextRecognitionTesseract;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B5CD4B828D6612C00D36A1A /* Build configuration list for PBXProject "TextRecognitionTesseract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5CD4E528D6612F00D36A1A /* Debug */,
+				6B5CD4E628D6612F00D36A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5CD4E728D6612F00D36A1A /* Build configuration list for PBXNativeTarget "TextRecognitionTesseract" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5CD4E828D6612F00D36A1A /* Debug */,
+				6B5CD4E928D6612F00D36A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5CD4EA28D6612F00D36A1A /* Build configuration list for PBXNativeTarget "TextRecognitionTesseractTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5CD4EB28D6612F00D36A1A /* Debug */,
+				6B5CD4EC28D6612F00D36A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B5CD4ED28D6612F00D36A1A /* Build configuration list for PBXNativeTarget "TextRecognitionTesseractUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B5CD4EE28D6612F00D36A1A /* Debug */,
+				6B5CD4EF28D6612F00D36A1A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B5CD4B528D6612C00D36A1A /* Project object */;
+}
