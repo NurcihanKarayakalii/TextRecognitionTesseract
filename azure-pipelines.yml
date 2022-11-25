@@ -8,7 +8,9 @@ trigger:
 
 pool:
   vmImage: 'macos-12.6'
-
+  
+variables:
+group: ios-pipeline
 
 - task: CocoaPods@0
   inputs:
