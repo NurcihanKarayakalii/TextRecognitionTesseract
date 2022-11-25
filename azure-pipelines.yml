@@ -10,7 +10,7 @@ pool:
   vmImage: 'macos-12.6'
   
 variables:
-group: ios-pipeline
+group: ios-build-variables
 
 - task: CocoaPods@0
   inputs:
