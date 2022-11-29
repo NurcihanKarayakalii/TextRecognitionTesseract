@@ -26,6 +26,9 @@ steps:
   inputs:
     appFile: 
     artifactsDirectory: '$(Build.ArtifactStagingDirectory)/AppCenterTest' 
+    frameworkOption: 'xcuitest'
+    xcUITestBuildDirectory: '$(build.artifactStagingDirectory)/DerivedData/Build/Products/Debug-iphoneos'
+    runTests: true
     #prepareTests: true # Optional
     #frameworkOption: 'appium' # Required when prepareTests == True# Options: appium, espresso, calabash, uitest, xcuitest
     #appiumBuildDirectory: # Required when prepareTests == True && Framework == Appium
